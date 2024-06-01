@@ -1,11 +1,12 @@
 import React from "react";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer>
-      <p>&copy; 2024 Marília Franco. All rights reserved.</p>
+      <p>Made with ❤️ by Marília Franco</p>
+      <p> &copy; All rights reserved</p>
     </footer>
   );
-}
+};
 
 export default Footer;

@@ -1,33 +1,76 @@
 import React from "react";
+import { Image, Timeline } from "antd";
+import profileImage from "../../assets/profile-image.jpg";
+import "./About.scss";
 
-function About() {
+const About = () => {
   return (
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am a Biosystems Engineer from the University of Sao Paulo who
-        transitioned to frontend development through the Women Can Code program.
-        I have a postgraduate specialization in Software Engineering and am
-        skilled in Agile Methodologies, React, TypeScript, Redux Toolkit, Hooks,
-        Gatsby, REST APIs, i18n, and unit testing with Jest/testing-library.
-      </p>
-      <p>
-        I have experience working at Venturus and am currently engaged in an
-        international experience at Farfetch, developing and enhancing internal
-        web applications using JavaScript, React, Bootstrap, and SCSS, with
-        Firebase for backend services.
-      </p>
-      <p>
-        I was the sole web developer responsible for building an internal
-        application initially using JavaScript, jQuery, Bootstrap, and CSS. When
-        the application scaled, I rebuilt it using React, SCSS, and Firebase,
-        helping to overcome a significant process previously managed using
-        spreadsheets. I worked closely with the Data team, leading to the
-        creation of a new position on the team for me to train a new web
-        developer.
-      </p>
+    <section id="about" className="about-section">
+      <div className="about-content">
+        <Image
+          src={profileImage}
+          alt="Marilia Franco"
+          className="profile-image"
+        />
+        <div className="about-text">
+          <h2>About Me</h2>
+          <Timeline
+            className="about-timeline"
+            mode="alternate"
+            items={[
+              {
+                label: "August 2018",
+                children:
+                  "Graduated as Biosystems Engineer from University of Sao Paulo",
+              },
+              {
+                label: "February 2020",
+                children: "Started Women Can Code program",
+              },
+              {
+                label: "April 2020",
+                children: "Completed Women Can Code program",
+              },
+              {
+                label: "June 2020",
+                children: "Joined Venturus as Junior Frontend Developer",
+              },
+              {
+                label: "December 2021",
+                children: "Promoted as Mid Frontend Developer on Venturus",
+              },
+              {
+                label: "March 2022",
+                children: "Started Software Engineering Specialization",
+              },
+              {
+                label: "May 2022",
+                children: "Engaged in international experience at Farfetch",
+              },
+              {
+                label: "June 2022",
+                children:
+                  "Developed internal web application using JavaScript, jQuery, Bootstrap, and CSS",
+              },
+              {
+                label: "October 2023",
+                children: "Post-Graduate as a Software Engineer",
+              },
+              {
+                label: "October 2023",
+                children:
+                  "Rebuilt internal web application using React, SCSS, and Firebase",
+              },
+              {
+                label: "March 2024",
+                children: "Trained new web developer on the team at Farfetch",
+              },
+            ]}
+          />
+        </div>
+      </div>
     </section>
   );
-}
+};
 
 export default About;

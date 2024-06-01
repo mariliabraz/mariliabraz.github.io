@@ -1,0 +1,39 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  background-color: #f4f4f4;
+
+  .about-content {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+
+    .profile-image {
+      border-radius: 50%;
+      width: 15em;
+      height: 15em;
+      object-fit: cover;
+    }
+
+    .about-text {
+      margin-left: 5em;
+      .about-timeline {
+        margin-top: 2em;
+
+        .ant-timeline-item-label {
+          font-weight: 450;
+        }
+      }
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        margin-bottom: 1em;
+        line-height: 1.6;
+      }
+    }
+  }
+}

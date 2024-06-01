@@ -1,34 +1,23 @@
 import React from "react";
-import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import NavigationTabs from "./components/NavigationTabs/NavigationTabs";
 import "./App.scss";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Header />
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <About />
-      <Projects />
-      <Contact />
+      <Navbar />
+      <section id="navigation-section">
+        <NavigationTabs />
+      </section>
+
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
