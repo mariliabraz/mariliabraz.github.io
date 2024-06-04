@@ -1,0 +1,20 @@
+@import "../../styles/global.scss";
+
+#projects {
+  h2 {
+    color: $color-primary;
+  }
+
+  .card {
+    border: 1px solid $color-secondary;
+    // background-color: $color-neutral;
+
+    .ant-card-meta-title {
+      color: $color-dark;
+    }
+
+    .ant-card-meta-description {
+      color: $color-dark;
+    }
+  }
+}

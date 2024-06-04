@@ -1,35 +1,51 @@
+@import "../../styles/global.scss";
+
 .navbar {
   background-image: url("../../assets/navbar-background.png");
   background-size: cover;
   background-position: center;
-  height: 13em;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  color: white;
+  padding: 1em;
 
   .navbar-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: white;
+    text-align: center;
 
     h1,
     h2,
-    p {
-      margin: 0.5em 0;
+    code {
+      color: white;
     }
 
-    h1 {
-      font-size: 2.5em; /* Adjust font size as needed */
+    code {
+      display: block;
     }
+  }
 
-    h2 {
-      font-size: 1.5em; /* Adjust font size as needed */
-    }
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
 
-    p {
-      font-size: 1.2em; /* Adjust font size as needed */
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
+  }
+
+  .name {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .tagline {
+    font-size: 1.2em;
   }
 }

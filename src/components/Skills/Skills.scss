@@ -1,0 +1,41 @@
+@import "../../styles/global.scss";
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-col {
+  text-align: center;
+  margin: 10px 0;
+
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    color: $color-primary;
+
+    .icon {
+      font-size: 20px;
+    }
+
+    .smile {
+      color: #1890ff; /* Blue */
+    }
+
+    .heart {
+      color: #eb2f96; /* Pink */
+    }
+
+    .checkcircle {
+      color: #52c41a; /* Green */
+    }
+
+    .loading {
+      color: #faad14; /* Yellow/Gold */
+    }
+  }
+}
