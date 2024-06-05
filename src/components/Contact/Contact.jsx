@@ -4,6 +4,7 @@ import {
   LinkedinOutlined,
   CloudDownloadOutlined,
   GithubOutlined,
+  WhatsAppOutlined,
 } from "@ant-design/icons";
 import "./Contact.scss";
 
@@ -30,6 +31,16 @@ const Contact = () => {
         <CloudDownloadOutlined />
         <a href="../../assets/Marilia-Franco-Frontend.pdf" download>
           Download Resume
+        </a>
+      </p>
+      <p className="contact-content">
+        <WhatsAppOutlined />
+        <a
+          href="https://wa.me/19996527795?text=Hello%20Marilia!%20I%20went%20from%20your%20website."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp
         </a>
       </p>
     </section>

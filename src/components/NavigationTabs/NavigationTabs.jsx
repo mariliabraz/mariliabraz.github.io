@@ -1,9 +1,9 @@
 import React from "react";
 import { Tabs } from "antd";
-import { TabsProps } from "antd";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
+import "./NavigationTabs.scss";
 
 const NavigationTabs = () => {
   const onChange = (key) => {
@@ -27,7 +27,14 @@ const NavigationTabs = () => {
       children: <Contact />,
     },
   ];
-  return <Tabs defaultActiveKey="1" items={items} onChange={onChange} />;
+  return (
+    <Tabs
+      className="custom-tabs"
+      defaultActiveKey="1"
+      items={items}
+      onChange={onChange}
+    />
+  );
 };
 
 export default NavigationTabs;

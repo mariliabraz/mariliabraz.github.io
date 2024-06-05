@@ -1,0 +1,21 @@
+@import "../../styles/global.scss";
+
+.custom-tabs .ant-tabs-nav .ant-tabs-tab {
+  box-shadow: none;
+
+  // Custom active tab underline color
+  &:hover,
+  &:active,
+  &.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: $color-dark;
+  }
+
+  &.ant-tabs-tab-active::after {
+    border-color: $color-dark;
+  }
+}
+
+// Custom active tab underline
+.custom-tabs .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: $color-dark;
+}
