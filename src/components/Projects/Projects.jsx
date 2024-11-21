@@ -38,6 +38,18 @@ const projects = [
     image: "link_to_image_or_screenshot",
     link: "link_to_project_or_demo",
   },
+  {
+    title: "BuddyMinder",
+    description:
+      "Developed a Chrome extension based in a personal idea to help users memorize key information",
+    responsibilities:
+      "Developed the extension based on a personal idea to improve memory retention and learning. Designed a sleek and user-friendly interface using React and SCSS. Integrated Firebase for data synchronization and cross-platform functionality. Added multilingual support (i18n) for English, French, Spanish, and Portuguese.",
+    challenges:
+      "Overcame challenges with Chrome Extension APIs, ensuring seamless notifications and efficient data management. Managed integration with Firebase for real-time updates.",
+    stack: "React, SCSS, Ant Design, Chrome Extension APIs",
+    image: "link_to_image_or_screenshot",
+    link: "link_to_project_or_demo",
+  },
 ];
 
 const Projects = () => {
