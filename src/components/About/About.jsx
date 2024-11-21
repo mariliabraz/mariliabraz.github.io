@@ -21,15 +21,12 @@ const About = () => {
               {
                 label: "August 2018",
                 children:
-                  "Graduated as Biosystems Engineer from University of Sao Paulo",
-              },
-              {
-                label: "February 2020",
-                children: "Started Women Can Code program",
+                  "Graduated as Biosystems Engineer, University of Sao Paulo",
               },
               {
                 label: "April 2020",
-                children: "Completed Women Can Code program",
+                children:
+                  "Completed Women Can Code program, transitioning into tech",
               },
               {
                 label: "June 2020",
@@ -37,7 +34,8 @@ const About = () => {
               },
               {
                 label: "December 2021",
-                children: "Promoted as Mid Frontend Developer on Venturus",
+                children:
+                  "Promoted to Mid-Level Frontend Developer at Venturus",
               },
               {
                 label: "March 2022",
@@ -45,25 +43,27 @@ const About = () => {
               },
               {
                 label: "May 2022",
-                children: "Engaged in international experience at Farfetch",
+                children: "Began international experience at Farfetch",
               },
               {
                 label: "June 2022",
                 children:
-                  "Developed internal web application using JavaScript, jQuery, Bootstrap, and CSS",
-              },
-              {
-                label: "October 2023",
-                children: "Post-Graduate as a Software Engineer",
+                  "Built an internal tool to streamline workflows using JavaScript, jQuery, Bootstrap, and CSS",
               },
               {
                 label: "October 2023",
                 children:
-                  "Rebuilt internal web application using React, SCSS, and Firebase",
+                  "Earned Post-Graduate Certification in Software Engineering",
+              },
+              {
+                label: "October 2023",
+                children:
+                  "Rebuilt and scaled the internal tool using React, SCSS, and Firebase",
               },
               {
                 label: "March 2024",
-                children: "Trained new web developer on the team at Farfetch",
+                children:
+                  "Trained and mentored a new web developer, solidifying the team’s capabilities",
               },
             ]}
           />
