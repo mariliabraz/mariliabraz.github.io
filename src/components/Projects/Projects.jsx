@@ -41,7 +41,7 @@ const projects = [
   {
     title: "BuddyMinder",
     description:
-      "Developed a Chrome extension based in a personal idea to help users memorize key information",
+      "Developed a Chrome extension based in a personal idea to help users memorize key information.",
     responsibilities:
       "Developed the extension based on a personal idea to improve memory retention and learning. Designed a sleek and user-friendly interface using React and SCSS. Integrated Firebase for data synchronization and cross-platform functionality. Added multilingual support (i18n) for English, French, Spanish, and Portuguese.",
     challenges:
