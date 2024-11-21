@@ -1,41 +1,77 @@
 @import "../../styles/global.scss";
 
-.skills-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.skill-col {
-  text-align: center;
-  margin: 10px 0;
-
-  h3 {
+.skills-section {
+  .skills-row {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
-    margin-bottom: 8px;
-    color: $color-primary;
+  }
 
-    .icon {
-      font-size: 20px;
+  .skill-col {
+    text-align: center;
+    margin: 10px 0;
+
+    h3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      color: $color-primary;
+
+      .icon {
+        font-size: 20px;
+      }
+
+      .smile {
+        color: #1890ff; /* Blue */
+      }
+
+      .heart {
+        color: #eb2f96; /* Pink */
+      }
+
+      .checkcircle {
+        color: #52c41a; /* Green */
+      }
+
+      .loading {
+        color: #faad14; /* Yellow/Gold */
+      }
+    }
+  }
+
+  .skills-legend {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Light background for distinction */
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+    h4 {
+      margin-bottom: 10px;
+      font-weight: bold;
+      text-align: center;
+      color: $color-primary;
     }
 
-    .smile {
-      color: #1890ff; /* Blue */
-    }
+    .ant-row {
+      .ant-col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        color: $color-secondary;
 
-    .heart {
-      color: #eb2f96; /* Pink */
-    }
+        .icon {
+          font-size: 18px;
+          margin-right: 8px;
+        }
 
-    .checkcircle {
-      color: #52c41a; /* Green */
-    }
-
-    .loading {
-      color: #faad14; /* Yellow/Gold */
+        .loading {
+          color: #faad14; /* Yellow/Gold */
+        }
+      }
     }
   }
 }

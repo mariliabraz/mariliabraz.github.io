@@ -59,7 +59,7 @@ const Projects = () => {
         <h2>Projects</h2>
         <Row gutter={[16, 16]}>
           {projects.map((project, index) => (
-            <Col xs={24} sm={12} md={8} key={index}>
+            <Col xs={24} sm={12} md={12} key={index}>
               <Card hoverable>
                 <Meta
                   title={project.title}

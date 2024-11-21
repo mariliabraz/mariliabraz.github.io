@@ -105,17 +105,45 @@ const skills = [
     icon: <Loading3QuartersOutlined className="icon loading" spin />,
   },
 ];
+const SkillsLegend = () => (
+  <div className="skills-legend">
+    <Row gutter={[16, 16]}>
+      <Col xs={24} sm={12} md={6}>
+        <HeartTwoTone className="icon heart" twoToneColor="#eb2f96" /> My
+        absolute favorites and main area of expertise
+      </Col>
+      <Col xs={24} sm={12} md={6}>
+        <SmileTwoTone className="icon smile" /> I feel comfortable, but need
+        occasional brushing up
+      </Col>
+      <Col xs={24} sm={12} md={6}>
+        <CheckCircleTwoTone
+          className="icon checkcircle"
+          twoToneColor="#52c41a"
+        />{" "}
+        I’ve worked with these but still improving
+      </Col>
+      <Col xs={24} sm={12} md={6}>
+        <Loading3QuartersOutlined className="icon loading" spin />
+        On my way! Just starting out
+      </Col>
+    </Row>
+  </div>
+);
 
 const Skills = () => (
-  <Row gutter={[16, 16]} className="skills-row">
-    {skills.map((skill, index) => (
-      <Col xs={24} sm={12} md={8} key={index} className="skill-col">
-        <h3>
-          {skill.icon} {skill.name}
-        </h3>
-      </Col>
-    ))}
-  </Row>
+  <div className="skills-section">
+    <Row gutter={[16, 16]} className="skills-row">
+      {skills.map((skill, index) => (
+        <Col xs={24} sm={12} md={8} key={index} className="skill-col">
+          <h3>
+            {skill.icon} {skill.name}
+          </h3>
+        </Col>
+      ))}
+    </Row>
+    <SkillsLegend />
+  </div>
 );
 
 export default Skills;
