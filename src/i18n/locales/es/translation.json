@@ -1,0 +1,120 @@
+{
+  "about": {
+    "title": "Sobre Mí",
+    "timeline": {
+      "august2018": "Graduada como Ingeniera de Biosistemas, Universidad de São Paulo",
+      "april2020": "Completó el programa Women Can Code, haciendo transición a la tecnología",
+      "june2020": "Ingresó a Venturus como Desarrolladora Frontend Junior",
+      "december2021": "Promovida a Desarrolladora Frontend de Nivel Intermedio en Venturus",
+      "march2022": "Comenzó la Especialización en Ingeniería de Software",
+      "may2022": "Inició experiencia internacional en Farfetch",
+      "june2022": "Construyó una herramienta interna para optimizar flujos de trabajo usando JavaScript, jQuery, Bootstrap y CSS",
+      "october2023_1": "Obtuvo Certificación de Posgrado en Ingeniería de Software",
+      "october2023_2": "Reconstruyó y escaló la herramienta interna usando React, SCSS y Firebase",
+      "march2024": "Capacitó y orientó a un nuevo desarrollador web, fortaleciendo las capacidades del equipo"
+    },
+    "labels": {
+      "august2018": "Agosto 2018",
+      "april2020": "Abril 2020",
+      "june2020": "Junio 2020",
+      "december2021": "Diciembre 2021",
+      "march2022": "Marzo 2022",
+      "may2022": "Mayo 2022",
+      "june2022": "Junio 2022",
+      "october2023": "Octubre 2023",
+      "march2024": "Marzo 2024"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "content": {
+      "email": {
+        "label": "Correo Electrónico",
+        "linkText": "marilia.andrad@gmail.com"
+      },
+      "linkedin": {
+        "label": "Perfil de LinkedIn",
+        "linkText": "Perfil de LinkedIn"
+      },
+      "github": {
+        "label": "Cuenta de GitHub",
+        "linkText": "Cuenta de GitHub"
+      },
+      "resume": {
+        "label": "Descargar Currículum",
+        "linkText": "Descargar Currículum"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "linkText": "WhatsApp"
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "skillsTitle": "Habilidades",
+    "list": [
+      {
+        "title": "Aplicación web interna para Farfetch",
+        "description": "Desarrollé una aplicación web interna para reemplazar un proceso basado en hojas de cálculo en Farfetch.",
+        "responsibilities": "Inicialmente desarrollé la aplicación usando JavaScript puro. Reconstruida con React y SCSS a medida que la aplicación creció. Integré servicios backend usando Firebase. Actualmente lidero la capacitación de un nuevo desarrollador web.",
+        "stack": "JavaScript, jQuery, Bootstrap, CSS, React, SCSS, Firebase"
+      },
+      {
+        "title": "Desarrollo Frontend en Venturus",
+        "description": "Trabajé en múltiples proyectos como parte de un equipo basado en Scrum y posteriormente en SAFe en Venturus.",
+        "responsibilities": "Desarrollé y mantuve aplicaciones frontend usando React, Redux y TypeScript. Interactué con APIs REST y aseguré la calidad del código mediante revisiones y pruebas con Jest y Cypress.",
+        "stack": "React, Redux, TypeScript, APIs REST, Jest, Cypress"
+      },
+      {
+        "title": "API Financiera",
+        "description": "Un proyecto personal publicado en RapidAPI que obtiene datos de acciones y criptomonedas.",
+        "responsibilities": "Diseñé e implementé la API usando FastAPI y Python. Mejoré la funcionalidad para destacarme en el mercado. Esta fue mi primera experiencia con Python, donde aprendí sobre diseño de API, obtención de datos y manejo de errores.",
+        "challenges": "Enfrenté desafíos aprendiendo la sintaxis de Python y las mejores prácticas, implementando una obtención de datos eficiente y asegurando un manejo robusto de errores.",
+        "stack": "FastAPI, Python, RapidAPI"
+      },
+      {
+        "title": "BuddyMinder",
+        "description": "Desarrollé una extensión de Chrome basada en una idea personal para ayudar a los usuarios a memorizar información clave.",
+        "responsibilities": "Desarrollé la extensión basada en una idea personal para mejorar la retención de memoria y el aprendizaje. Diseñé una interfaz elegante y fácil de usar con React y SCSS. Integré Firebase para la sincronización de datos y funcionalidad multiplataforma. Añadí soporte multilingüe (i18n) para inglés, francés, español y portugués.",
+        "challenges": "Superé desafíos con las APIs de extensiones de Chrome, asegurando notificaciones fluidas y una gestión eficiente de datos. Manejó la integración con Firebase para actualizaciones en tiempo real.",
+        "stack": "React, SCSS, Ant Design, APIs de extensiones de Chrome"
+      }
+    ]
+  },
+  "responsibilities": "Responsabilidades",
+  "challenges": "Desafíos",
+  "techStack": "Tecnologías",
+  "skills": {
+    "agile": "Metodologías Ágiles",
+    "legend": {
+      "favorites": "Mis favoritos absolutos y mi principal área de especialización",
+      "comfortable": "Me siento cómodo, pero necesito repasarlo ocasionalmente",
+      "improving": "He trabajado con estas, pero aún estoy mejorando",
+      "startingOut": "¡En camino! Apenas empezando"
+    }
+  },
+  "navbar": {
+    "tagline": "Desarrolladora Web"
+  },
+  "footer": {
+    "madeWithLove": "Hecho con ❤️ por Marília Franco",
+    "rightsReserved": "© Todos los derechos reservados"
+  },
+  "navigationTabs": {
+    "tabs": {
+      "about": "Sobre Mí",
+      "projects": "Proyectos",
+      "contact": "Contáctame"
+    },
+    "languageDropdown": {
+      "label": "Idioma",
+      "options": {
+        "en": "Inglés",
+        "es": "Español",
+        "pt-BR": "Portugués (Brasil)",
+        "pt-PT": "Portugués (Portugal)"
+      }
+    }
+  }
+}

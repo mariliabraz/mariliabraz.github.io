@@ -2,10 +2,12 @@ import React from "react";
 import { Image, Timeline } from "antd";
 import profileImage from "../../assets/profile-image.jpg";
 import "./About.scss";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
   return (
-    <section id="about" className="about-section">
+    <div id="about" className="about-section">
       <div className="about-content">
         <Image
           src={profileImage}
@@ -13,63 +15,56 @@ const About = () => {
           className="profile-image"
         />
         <div className="about-text">
-          <h2>About Me</h2>
+          <h2>{t("about.title")}</h2>
           <Timeline
             className="about-timeline"
             mode="alternate"
             items={[
               {
-                label: "August 2018",
-                children:
-                  "Graduated as Biosystems Engineer, University of Sao Paulo",
+                label: t("about.labels.august2018"),
+                children: t("about.timeline.august2018"),
               },
               {
-                label: "April 2020",
-                children:
-                  "Completed Women Can Code program, transitioning into tech",
+                label: t("about.labels.april2020"),
+                children: t("about.timeline.april2020"),
               },
               {
-                label: "June 2020",
-                children: "Joined Venturus as Junior Frontend Developer",
+                label: t("about.labels.june2020"),
+                children: t("about.timeline.june2020"),
               },
               {
-                label: "December 2021",
-                children:
-                  "Promoted to Mid-Level Frontend Developer at Venturus",
+                label: t("about.labels.december2021"),
+                children: t("about.timeline.december2021"),
               },
               {
-                label: "March 2022",
-                children: "Started Software Engineering Specialization",
+                label: t("about.labels.march2022"),
+                children: t("about.timeline.march2022"),
               },
               {
-                label: "May 2022",
-                children: "Began international experience at Farfetch",
+                label: t("about.labels.may2022"),
+                children: t("about.timeline.may2022"),
               },
               {
-                label: "June 2022",
-                children:
-                  "Built an internal tool to streamline workflows using JavaScript, jQuery, Bootstrap, and CSS",
+                label: t("about.labels.june2022"),
+                children: t("about.timeline.june2022"),
               },
               {
-                label: "October 2023",
-                children:
-                  "Earned Post-Graduate Certification in Software Engineering",
+                label: t("about.labels.october2023"),
+                children: t("about.timeline.october2023_1"),
               },
               {
-                label: "October 2023",
-                children:
-                  "Rebuilt and scaled the internal tool using React, SCSS, and Firebase",
+                label: t("about.labels.october2023"),
+                children: t("about.timeline.october2023_2"),
               },
               {
-                label: "March 2024",
-                children:
-                  "Trained and mentored a new web developer, solidifying the team’s capabilities",
+                label: t("about.labels.march2024"),
+                children: t("about.timeline.march2024"),
               },
             ]}
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -1,0 +1,120 @@
+{
+  "about": {
+    "title": "Sobre Mim",
+    "timeline": {
+      "august2018": "Formada como Engenheira de Biossistemas, Universidade de São Paulo",
+      "april2020": "Concluí o programa Women Can Code, fazendo transição para tecnologia",
+      "june2020": "Ingressei no Venturus como Desenvolvedora Frontend Júnior",
+      "december2021": "Promovida a Desenvolvedora Frontend Pleno na Venturus",
+      "march2022": "Iniciei a Especialização em Engenharia de Software",
+      "may2022": "Início da minha experiência internacional como Web Developer na Farfetch",
+      "june2022": "Desenvolvimento de uma aplicação interna usando JavaScript, jQuery, Bootstrap e CSS",
+      "october2023_1": "Conclusão da Pós-Graduação em Engenharia de Software",
+      "october2023_2": "Responsável por escalar a aplicação web utilizando React, SCSS e Firebase",
+      "march2024": "Responsável por mentorar um novo membro do time"
+    },
+    "labels": {
+      "august2018": "Agosto 2018",
+      "april2020": "Abril 2020",
+      "june2020": "Junho 2020",
+      "december2021": "Dezembro 2021",
+      "march2022": "Março 2022",
+      "may2022": "Maio 2022",
+      "june2022": "Junho 2022",
+      "october2023": "Outubro 2023",
+      "march2024": "Março 2024"
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "content": {
+      "email": {
+        "label": "E-mail",
+        "linkText": "marilia.andrad@gmail.com"
+      },
+      "linkedin": {
+        "label": "Perfil no LinkedIn",
+        "linkText": "Perfil no LinkedIn"
+      },
+      "github": {
+        "label": "Conta no GitHub",
+        "linkText": "Conta no GitHub"
+      },
+      "resume": {
+        "label": "Baixar Currículo",
+        "linkText": "Baixar Currículo"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "linkText": "WhatsApp"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "skillsTitle": "Habilidades",
+    "list": [
+      {
+        "title": "Aplicação Web Interna para a Farfetch",
+        "description": "Desenvolvi uma aplicação web interna para substituir um processo baseado em planilhas na Farfetch.",
+        "responsibilities": "Inicialmente construí a aplicação usando JavaScript puro. Reconstruída com React e SCSS à medida que a aplicação escalava. Integrei serviços de backend usando Firebase. Atualmente lidero o treinamento de um novo desenvolvedor web.",
+        "stack": "JavaScript, jQuery, Bootstrap, CSS, React, SCSS, Firebase"
+      },
+      {
+        "title": "Desenvolvimento Frontend na Venturus",
+        "description": "Trabalhei em diversos projetos como parte de uma equipe baseada em Scrum e, mais tarde, em SAFe na Venturus.",
+        "responsibilities": "Desenvolvi e mantive aplicações frontend usando React, Redux e TypeScript. Interagi com APIs REST e garanti a qualidade do código por meio de revisões e testes usando Jest e Cypress.",
+        "stack": "React, Redux, TypeScript, APIs REST, Jest, Cypress"
+      },
+      {
+        "title": "API Financeira",
+        "description": "Um projeto pessoal publicado no RapidAPI que obtém dados de ações e criptomoedas.",
+        "responsibilities": "Projetei e implementei a API usando FastAPI e Python. Melhorei a funcionalidade para me destacar no mercado. Esta foi minha primeira experiência com Python, onde aprendi sobre design de APIs, obtenção de dados e tratamento de erros.",
+        "challenges": "Enfrentei desafios ao aprender a sintaxe do Python e as melhores práticas, implementar uma obtenção eficiente de dados e garantir um tratamento robusto de erros.",
+        "stack": "FastAPI, Python, RapidAPI"
+      },
+      {
+        "title": "BuddyMinder",
+        "description": "Desenvolvi uma extensão do Chrome baseada em uma ideia pessoal para ajudar os usuários a memorizar informações importantes.",
+        "responsibilities": "Desenvolvi a extensão com base em uma ideia pessoal para melhorar a retenção de memória e o aprendizado. Desenhei uma interface elegante e amigável usando React e SCSS. Integrei o Firebase para a sincronização de dados e funcionalidade multiplataforma. Adicionei suporte multilíngue (i18n) para inglês, francês, espanhol e português.",
+        "challenges": "Superei desafios com as APIs de Extensões do Chrome, garantindo notificações fluídas e uma gestão eficiente de dados. Gerenciei a integração com o Firebase para atualizações em tempo real.",
+        "stack": "React, SCSS, Ant Design, APIs de Extensões do Chrome"
+      }
+    ]
+  },
+  "responsibilities": "Responsabilidades",
+  "challenges": "Desafios",
+  "techStack": "Tecnologias",
+  "skills": {
+    "agile": "Metodologias Ágeis",
+    "legend": {
+      "favorites": "São meus favoritos e minha principal área de especialização",
+      "comfortable": "Me sinto confortável, mas preciso revisar ocasionalmente",
+      "improving": "Já trabalhei com essas tecnologias, mas ainda estou melhorando",
+      "learning": "Acabei de começar, mas estou no caminho!"
+    }
+  },
+  "navbar": {
+    "tagline": "Desenvolvedora Web"
+  },
+  "footer": {
+    "madeWithLove": "Feito com ❤️ por Marília Franco",
+    "rightsReserved": "© Todos os direitos reservados"
+  },
+  "navigationTabs": {
+    "tabs": {
+      "about": "Sobre Mim",
+      "projects": "Projetos",
+      "contact": "Contato"
+    },
+    "languageDropdown": {
+      "label": "Idioma",
+      "options": {
+        "en": "Inglês",
+        "es": "Espanhol",
+        "pt-BR": "Português (Brasil)",
+        "pt-PT": "Português (Portugal)"
+      }
+    }
+  }
+}

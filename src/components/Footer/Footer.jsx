@@ -1,10 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer>
-      <p>Made with ❤️ by Marília Franco</p>
-      <p> &copy; All rights reserved</p>
+      <p>{t("footer.madeWithLove")}</p>
+      <p>{t("footer.rightsReserved")}</p>
     </footer>
   );
 };

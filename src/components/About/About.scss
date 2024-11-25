@@ -2,7 +2,7 @@
 
 #about {
   h2 {
-    color: $color-primary; // Change this to use the primary color
+    color: $color-primary;
   }
 
   .about-content {
@@ -17,7 +17,7 @@
     width: 150px;
     height: 150px;
     margin-bottom: 20px;
-    object-fit: cover; // Ensure the image covers the area without distortion
+    object-fit: cover;
   }
 
   .about-text {
@@ -26,5 +26,9 @@
 
   .about-timeline {
     margin-top: 20px;
+
+    .ant-timeline-item-head-blue {
+      border-color: $color-dark;
+    }
   }
 }
