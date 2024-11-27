@@ -57,8 +57,8 @@
       {
         "title": "BuddyMinder",
         "description": "Desenvolvimento de uma extensão do Chrome para ajudar a memorizar informações importantes.",
-        "responsibilities": "Desenvolvi o plugin com base numa ideia pessoal para melhorar a retenção de memória e o aprendizado, com o mínimo esforço do utilizador, através de notificações constantes e configuradas pelo utilizador. Usei React e SCSS, bem como o Firebase para autenticação e armazenamento de dados. Adicionei suporte i18n para inglês, francês, espanhol e português.",
-        "stack": "React, SCSS, Ant Design, APIs de Extensões do Chrome",
+        "responsibilities": "Desenvolvi o plugin com base numa ideia pessoal para melhorar a retenção de memória e o aprendizado, com o mínimo esforço do utilizador, através de notificações constantes e configuradas pelo utilizador.",
+        "stack": "React, SCSS, Ant Design, i18n, Firebase, APIs de Extensões do Chrome",
         "link": "https://github.com/mariliafranco/buddyMinder"
       }
     ]
