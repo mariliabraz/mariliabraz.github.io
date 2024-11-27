@@ -16,7 +16,10 @@ const Projects = () => {
         <Row gutter={[16, 16]}>
           {projects.map((project, index) => (
             <Col xs={24} sm={12} md={12} key={index}>
-              <Card hoverable extra={<a href={project.link}></a>}>
+              <Card
+                hoverable
+                extra={<a href={project.link} alt={project.title}></a>}
+              >
                 <Meta
                   title={project.title}
                   description={
