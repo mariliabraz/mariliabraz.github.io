@@ -57,7 +57,7 @@
       {
         "title": "BuddyMinder",
         "description": "Desarrollo de una extensión de Chrome para ayudar a memorizar información importante.",
-        "responsibilities": "Desarrollé el complemento basado en una idea personal para mejorar la retención de memoria y el aprendizaje con un esfuerzo mínimo por parte del usuario mediante notificaciones constantes y configuradas por el usuario.",
+        "responsibilities": "Implementación de un complemento basado en una idea personal para mejorar la retención de memoria y el aprendizaje con un esfuerzo mínimo por parte del usuario mediante notificaciones constantes.",
         "stack": "React, SCSS, Ant Design, i18n, Firebase, APIs de Extensiones de Chrome",
         "link": "https://github.com/mariliafranco/buddyMinder"
       }
