@@ -44,7 +44,7 @@
       {
         "title": "Frontend Development at Venturus",
         "description": "Participation in two projects, the first with a Scrum-based team and later in a SAFe framework.",
-        "responsibilities": "Development and maintenance of frontend applications using React, Redux, and TypeScript. Integration with REST APIs, testing with Jest and Cypress, and code delivery based on code reviews.",
+        "responsibilities": "Development and maintenance of frontend applications using React, Redux, and TypeScript.",
         "stack": "React, Redux, TypeScript, REST APIs, Jest, Cypress"
       },
       {
@@ -57,7 +57,7 @@
       {
         "title": "BuddyMinder",
         "description": "Development of a Chrome extension to assist with memorizing important information.",
-        "responsibilities": "Implementation of a plugin based on a personal idea to improve memory retention and learning with minimal user effort through notifications.",
+        "responsibilities": "Implementation of a plugin based on a personal idea to improve memory retention and learning.",
         "stack": "React, SCSS, Ant Design, i18n, Firebase,  Chrome Extension APIs",
         "link": "https://github.com/mariliafranco/buddyMinder"
       }

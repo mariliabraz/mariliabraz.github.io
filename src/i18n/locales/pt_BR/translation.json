@@ -38,14 +38,13 @@
       {
         "title": "Desenvolvimento Web na Farfetch",
         "description": "Planejamento e desenvolvimento de uma aplicação web para substituir um processo interno baseado em planilhas",
-        "responsibilities": "Inicialmente foi desenvolvida uma aplicação usando Vanilla JavaScript. Com a necessidade de ser escalada, uma nova aplicação foi desenvolvida com React e SCSS.",
+        "responsibilities": "Desenvolvida, inicialmente, uma aplicação usando Vanilla JavaScript. Com a necessidade de ser escalada, uma nova aplicação foi desenvolvida com React e SCSS.",
         "stack": "JavaScript, jQuery, Bootstrap, CSS, React, SCSS, Firebase"
       },
       {
         "title": "Desenvolvimento Frontend no Venturus",
         "description": "Participação em dois projetos, o primeiro em uma equipe baseada em Scrum e, mais tarde, em SAFe..",
-        "responsibilities": "Desenvolvimento e manutenção de aplicações frontend usando React, Redux e TypeScript. Integração com APIs REST, testes usando Jest e Cypress e entrega de código baseada em code-review.",
-        "stack": "React, Redux, TypeScript, APIs REST, Jest, Cypress"
+        "responsibilities": "Desenvolvimento e manutenção de aplicações frontend usando React, Redux e TypeScript."
       },
       {
         "title": "API Financeira",
@@ -57,7 +56,7 @@
       {
         "title": "BuddyMinder",
         "description": "Desenvolvimento de uma extensão do Chrome para ajudar na memorização de informações importantes.",
-        "responsibilities": "Implementação de um plugin com base em uma ideia pessoal para melhorar a retenção de memória e o aprendizado, com o mínimo esforço do usuário a partir de notificações.",
+        "responsibilities": "Implementação de um plugin com base em uma ideia pessoal para melhorar a retenção de memória e o aprendizado.",
         "stack": "React, SCSS, Ant Design, i18n, Firebase, APIs de Extensões do Chrome",
         "link": "https://github.com/mariliafranco/buddyMinder"
       }
