@@ -28,20 +28,17 @@ const Contact = () => {
       <p className="contact-content">
         <LinkedinOutlined />
         <a href="https://www.linkedin.com/in/mar%C3%ADlia-franco-de-andrade/">
-          {t("contact.content.linkedin.linkText")}
+          {t("contact.linkedin")}
         </a>
       </p>
       <p className="contact-content">
         <GithubOutlined />
-        <a href="https://github.com/mariliafranco">
-          {" "}
-          {t("contact.content.github.linkText")}
-        </a>
+        <a href="https://github.com/mariliafranco"> {t("contact.github")}</a>
       </p>
       <p className="contact-content">
         <CloudDownloadOutlined />
         <a href={resumePath} download>
-          {t("contact.content.resume.linkText")}
+          {t("contact.resume")}
         </a>
       </p>
       <p className="contact-content">

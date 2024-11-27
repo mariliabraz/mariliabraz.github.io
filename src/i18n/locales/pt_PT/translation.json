@@ -3,15 +3,15 @@
     "title": "Sobre Mim",
     "timeline": {
       "august2018": "Formada como Engenheira de Biossistemas, Universidade de São Paulo",
-      "april2020": "Completou o programa Women Can Code, fazendo transição para a tecnologia",
-      "june2020": "Ingressou na Venturus como Desenvolvedora Frontend Júnior",
-      "december2021": "Promovida a Desenvolvedora Frontend Pleno na Venturus",
-      "march2022": "Iniciou Especialização em Engenharia de Software",
-      "may2022": "Iniciou experiência internacional na Farfetch",
-      "june2022": "Construiu uma ferramenta interna para otimizar fluxos de trabalho usando JavaScript, jQuery, Bootstrap e CSS",
-      "october2023_1": "Obteve Certificação de Pós-Graduação em Engenharia de Software",
-      "october2023_2": "Reconstruiu e escalou a ferramenta interna usando React, SCSS e Firebase",
-      "march2024": "Formou e orientou um novo desenvolvedor web, fortalecendo as capacidades da equipa"
+      "april2020": "Concluiu o programa Women Can Code, fazendo transição para tecnologia",
+      "june2020": "Contratada pela Venturus como Desenvolvedora Frontend Júnior",
+      "december2021": "Promovida a Desenvolvedora Frontend Pleno",
+      "march2022": "Início da Especialização em Engenharia de Software",
+      "may2022": "Nova experiência profissional como Web Developer na Farfetch (posição remota - Portugal)",
+      "june2022": "Desenvolvimento de uma aplicação interna usando JavaScript, jQuery, Bootstrap e CSS",
+      "october2023_1": "Conclusão da Pós-Graduação em Engenharia de Software",
+      "october2023_2": "Responsável por escalar a aplicação web utilizando React, SCSS e Firebase",
+      "march2024": "Início da mentoria a um novo membro da equipa"
     },
     "labels": {
       "august2018": "Agosto 2018",
@@ -27,58 +27,39 @@
   },
   "contact": {
     "title": "Contato",
-    "content": {
-      "email": {
-        "label": "E-mail",
-        "linkText": "marilia.andrad@gmail.com"
-      },
-      "linkedin": {
-        "label": "Perfil no LinkedIn",
-        "linkText": "Perfil no LinkedIn"
-      },
-      "github": {
-        "label": "Conta no GitHub",
-        "linkText": "Conta no GitHub"
-      },
-      "resume": {
-        "label": "Baixar Currículo",
-        "linkText": "Baixar Currículo"
-      },
-      "whatsapp": {
-        "label": "WhatsApp",
-        "linkText": "WhatsApp"
-      }
-    }
+    "linkedin": "Perfil no LinkedIn",
+    "github": "Conta no GitHub",
+    "resume": "Baixar Currículo"
   },
   "projects": {
     "title": "Projetos",
     "skillsTitle": "Competências",
     "list": [
       {
-        "title": "Aplicação Web Interna para a Farfetch",
-        "description": "Desenvolvi uma aplicação web interna para substituir um processo baseado em folhas de cálculo na Farfetch.",
-        "responsibilities": "Inicialmente construí a aplicação usando JavaScript puro. Reconstruída com React e SCSS à medida que a aplicação cresceu. Integrei serviços de backend usando Firebase. Atualmente lidero a formação de um novo programador web.",
+        "title": "Desenvolvimento Web na Farfetch",
+        "description": "Planeamento e desenvolvimento de uma aplicação web para substituir um processo interno baseado em folhas de cálculo",
+        "responsibilities": "Inicialmente, a aplicação foi desenvolvida usando JavaScript Vanilla. Com a necessidade de escalar, uma nova aplicação foi construída com React e SCSS. Para a integração dos serviços de backend foi usado Firebase. Atualmente lidero o treino de um novo programador web.",
         "stack": "JavaScript, jQuery, Bootstrap, CSS, React, SCSS, Firebase"
       },
       {
         "title": "Desenvolvimento Frontend na Venturus",
-        "description": "Trabalhei em vários projetos como parte de uma equipa baseada em Scrum e, mais tarde, em SAFe na Venturus.",
-        "responsibilities": "Desenvolvi e mantive aplicações frontend usando React, Redux e TypeScript. Interagi com APIs REST e assegurei a qualidade do código através de revisões e testes usando Jest e Cypress.",
+        "description": "Participação em dois projetos, o primeiro com uma equipa baseada em Scrum e mais tarde num ambiente SAFe.",
+        "responsibilities": "Desenvolvimento e manutenção de aplicações frontend usando React, Redux e TypeScript. Integração com APIs REST, testes com Jest e Cypress, e entrega de código baseada em revisões de código.",
         "stack": "React, Redux, TypeScript, APIs REST, Jest, Cypress"
       },
       {
         "title": "API Financeira",
-        "description": "Um projeto pessoal publicado no RapidAPI que obtém dados de ações e criptomoedas.",
-        "responsibilities": "Desenhei e implementei a API usando FastAPI e Python. Melhorei a funcionalidade para me destacar no mercado. Esta foi a minha primeira experiência com Python, onde aprendi sobre design de APIs, obtenção de dados e tratamento de erros.",
-        "challenges": "Enfrentei desafios ao aprender a sintaxe do Python e as melhores práticas, implementar uma obtenção eficiente de dados e assegurar um tratamento robusto de erros.",
-        "stack": "FastAPI, Python, RapidAPI"
+        "description": "Um projeto pessoal publicado no RapidAPI que obtém dados em tempo real de ações e criptomoedas.",
+        "responsibilities": "A minha primeira experiência com Python, focada em aprender a linguagem e implementar uma API.",
+        "stack": "FastAPI, Python, RapidAPI",
+        "link": "https://github.com/mariliafranco/financial-api"
       },
       {
         "title": "BuddyMinder",
-        "description": "Desenvolvi uma extensão de Chrome baseada numa ideia pessoal para ajudar os utilizadores a memorizar informações importantes.",
-        "responsibilities": "Desenvolvi a extensão com base numa ideia pessoal para melhorar a retenção de memória e o aprendizado. Desenhei uma interface elegante e de fácil utilização usando React e SCSS. Integrei o Firebase para a sincronização de dados e funcionalidade multiplataforma. Adicionei suporte multilingue (i18n) para inglês, francês, espanhol e português.",
-        "challenges": "Superei desafios com as APIs de Extensão do Chrome, garantindo notificações fluidas e uma gestão eficiente de dados. Gerenciei a integração com o Firebase para atualizações em tempo real.",
-        "stack": "React, SCSS, Ant Design, APIs de Extensões do Chrome"
+        "description": "Desenvolvimento de uma extensão do Chrome para ajudar a memorizar informações importantes.",
+        "responsibilities": "Desenvolvi o plugin com base numa ideia pessoal para melhorar a retenção de memória e o aprendizado, com o mínimo esforço do utilizador, através de notificações constantes e configuradas pelo utilizador. Usei React e SCSS, bem como o Firebase para autenticação e armazenamento de dados. Adicionei suporte i18n para inglês, francês, espanhol e português.",
+        "stack": "React, SCSS, Ant Design, APIs de Extensões do Chrome",
+        "link": "https://github.com/mariliafranco/buddyMinder"
       }
     ]
   },
@@ -95,7 +76,7 @@
     }
   },
   "navbar": {
-    "tagline": "Desenvolvedora Web"
+    "tagline": "Desenvolvedora Frontend"
   },
   "footer": {
     "madeWithLove": "Feito com ❤️ por Marília Franco",
@@ -112,8 +93,8 @@
       "options": {
         "en": "Inglês",
         "es": "Espanhol",
-        "pt-BR": "Português (Brasil)",
-        "pt-PT": "Português (Portugal)"
+        "pt-BR": "Português (BR)",
+        "pt-PT": "Português (PT)"
       }
     }
   }
