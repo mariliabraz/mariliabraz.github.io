@@ -26,11 +26,16 @@ const Projects = () => {
                     <>
                       <p>{project.description}</p>
                       <p>
-                        <strong>{t("responsibilities")}:</strong>{" "}
+                        <strong className="description-highlight">
+                          {t("responsibilities")}:
+                        </strong>{" "}
                         {project.responsibilities}
                       </p>
                       <p>
-                        <strong>{t("techStack")}:</strong> {project.stack}
+                        <strong className="description-highlight">
+                          {t("techStack")}:
+                        </strong>{" "}
+                        {project.stack}
                       </p>
                     </>
                   }

@@ -5,15 +5,12 @@
     color: $color-primary;
   }
 
-  .card {
-    border: 1px solid $color-secondary;
-    // background-color: $color-neutral;
-
+  .ant-card {
     .ant-card-meta-title {
       color: $color-dark;
     }
 
-    .ant-card-meta-description {
+    .description-highlight {
       color: $color-dark;
     }
   }

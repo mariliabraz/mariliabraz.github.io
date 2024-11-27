@@ -46,9 +46,10 @@
       cursor: pointer;
       margin-left: 16px;
       transition: color 0.3s;
+      color: $color-dark;
 
       &:hover {
-        color: $color-dark;
+        color: $color-primary;
       }
     }
 

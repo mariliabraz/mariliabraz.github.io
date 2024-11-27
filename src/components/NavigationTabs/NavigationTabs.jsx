@@ -81,7 +81,7 @@ const NavigationTabs = () => {
     <div className="navigation-tabs">
       <div className="navigation-language-dropdown">
         <Dropdown
-          overlay={languageMenu}
+          menu={languageMenu}
           placement="bottomRight"
           trigger={["click"]}
         >

@@ -38,7 +38,7 @@
       {
         "title": "Desenvolvimento Web na Farfetch",
         "description": "Planejamento e desenvolvimento de uma aplicação web para substituir um processo interno baseado em planilhas",
-        "responsibilities": "Inicialmente foi desenvolvida uma aplicação usando Vanilla JavaScript. Com a necessidade de ser escalada, uma nova aplicação foi desenvolvida com React e SCSS. Para integração de serviços backend foi utilizado o Firebase. Atualmente lidero o treinamento de um novo desenvolvedor web.",
+        "responsibilities": "Inicialmente foi desenvolvida uma aplicação usando Vanilla JavaScript. Com a necessidade de ser escalada, uma nova aplicação foi desenvolvida com React e SCSS.",
         "stack": "JavaScript, jQuery, Bootstrap, CSS, React, SCSS, Firebase"
       },
       {
@@ -57,7 +57,7 @@
       {
         "title": "BuddyMinder",
         "description": "Desenvolvimento de uma extensão do Chrome para ajudar na memorização de informações importantes.",
-        "responsibilities": "Implementação de um plugin com base em uma ideia pessoal para melhorar a retenção de memória e o aprendizado, com o mínimo esforço do usuário a partir de notificações constantes.",
+        "responsibilities": "Implementação de um plugin com base em uma ideia pessoal para melhorar a retenção de memória e o aprendizado, com o mínimo esforço do usuário a partir de notificações.",
         "stack": "React, SCSS, Ant Design, i18n, Firebase, APIs de Extensões do Chrome",
         "link": "https://github.com/mariliafranco/buddyMinder"
       }
