@@ -15,7 +15,7 @@ const Contact = () => {
   const resumePath =
     i18n.language === "pt-BR" || i18n.language === "pt-PT"
       ? "../../assets/Marilia-Franco-Desenvolvedora-Frontend.pdf"
-      : "../../assets/Marilia-Franco-Frontend.pdf";
+      : "../../assets/Marilia-Braz-Frontend-Developer.pdf";
 
   return (
     <div id="contact" className="contact-section">
