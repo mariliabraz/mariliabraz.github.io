@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-text">
-        <h1 className="name">Marília Franco</h1>
+        <h1 className="name">Marília Braz</h1>
         <h2 className="tagline">{t("navbar.tagline")}</h2>
         <code>&lt;Code like a girl /&gt;</code>
       </div>
