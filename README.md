@@ -1,4 +1,4 @@
-# Marilia Franco | Frontend Developer 🚀
+# Marilia Braz | Frontend Developer 🚀
 
 Welcome to my portfolio! This GitHub repository hosts the code for my personal website, built with React and SCSS, showcasing my projects, skills, and experience as a frontend developer.
 
