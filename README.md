@@ -8,6 +8,6 @@ Feel free to reach out to me for any queries or opportunities:
 
 Email: marilia.andrad@gmail.com
 
-LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/mar%C3%ADlia-franco-de-andrade/)
+LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/marilia-braz/)
 
-GitHub: https://github.com/mariliafranco
+GitHub: https://github.com/mariliabraz
