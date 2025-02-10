@@ -1,8 +1,8 @@
 {
-  "name": "mariliafranco.github.io",
+  "name": "mariliabraz.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mariliafranco.github.io",
+  "homepage": "https://mariliabraz.github.io",
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
     "@testing-library/jest-dom": "^5.17.0",
