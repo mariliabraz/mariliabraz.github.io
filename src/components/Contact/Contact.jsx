@@ -27,13 +27,13 @@ const Contact = () => {
 
       <p className="contact-content">
         <LinkedinOutlined />
-        <a href="https://www.linkedin.com/in/mar%C3%ADlia-franco-de-andrade/">
+        <a href="https://www.linkedin.com/in/marilia-braz/">
           {t("contact.linkedin")}
         </a>
       </p>
       <p className="contact-content">
         <GithubOutlined />
-        <a href="https://github.com/mariliafranco"> {t("contact.github")}</a>
+        <a href="https://github.com/mariliabraz"> {t("contact.github")}</a>
       </p>
       <p className="contact-content">
         <CloudDownloadOutlined />
